@@ -1,0 +1,271 @@
+/* Reset Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EAF5E5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header/Hero Section */
+.hero-section {
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    background: linear-gradient(to top, #f8c983, #8cb369);
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-content h1 {
+    font-size: 3em;
+    color: #4a6d36; 
+    margin-bottom: -10px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.header-content h2 {
+    font-size: 1.5em;
+    color: #f7a31b;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Gaya untuk gambar produk di Hero Section */
+.main-product-image {
+    width: 90%; 
+    max-width: 500px; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto 0 auto; 
+    border-radius: 10px; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.halal-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #4a6d36;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Konten Utama */
+.content-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Bagian Varian */
+.variants-section {
+    background-color: #FFA500; 
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.section-title {
+    text-align: center;
+    color: #4a6d36; 
+    font-size: 2em;
+    margin: 30px 0 20px;
+    position: relative;
+}
+
+.variants-section .section-title {
+    color: #fff; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3); 
+    margin-top: 0;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.variant-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #d39f00;
+}
+
+.variant-name {
+    font-size: 1.25em;
+    color: #c98800;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.variant-benefit {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.note {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #fff; 
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding-bottom: 0px;
+}
+
+/* --- Gaya Formulir Pemesanan --- */
+.order-form-section {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #d39f00; 
+}
+
+.order-form-section .section-title {
+    color: #f7a31b; 
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #4a6d36; 
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #f7a31b; 
+    outline: none;
+}
+
+.form-group small {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    width: auto;
+}
+
+.submit-button {
+    background-color: #f7a31b; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #d38d0e; 
+}
+
+.form-note {
+    text-align: center;
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 10px;
+}
+/* --- Akhir Gaya Formulir Pemesanan --- */
+
+
+/* Footer CTA */
+.footer-cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 2px dashed #ccc;
+    background-color: #e6e6e0;
+}
+
+.cta-box p {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #4a6d36;
+}
+
+.social-handle {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.phone-number {
+    display: block;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #f7a31b;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+/* Responsif Dasar */
+@media (max-width: 600px) {
+    .hero-section {
+        border-bottom-left-radius: 30% 5%;
+        border-bottom-right-radius: 30% 5%;
+    }
+    .header-content h1 {
+        font-size: 2.5em;
+    }
+    .header-content h2 {
+        font-size: 1.2em;
+    }
+    .footer-cta {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .main-product-image {
+        width: 100%; 
+        margin-top: 15px;
+    }
+}

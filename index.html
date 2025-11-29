@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELFOOD - Minuman Rempah Alami</title>
+    
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    
+    <link rel="stylesheet" href="w.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="header-content">
+            <h1>ELFOOD</h1>
+            <h2>Minuman Rempah Alami</h2>
+            
+            <img src="www.jpg" alt="ELFOOD Minuman Rempah Alami" class="main-product-image">
+
+            <div class="halal-logo">
+                <p>HALAL INDONESIA</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="content-container">
+        <section class="variants-section">
+            <h3 class="section-title">Varian dan Khasiatnya 🌿</h3>
+            
+            <div class="product-grid">
+                <div class="variant-item">
+                    <h4 class="variant-name">Kunir Asem</h4>
+                    <p class="variant-benefit">meredakan nyeri haid, menurunkan berat badan, meningkatkan daya tahan tubuh, melancarkan BAB dll</p>
+                </div>
+
+                <div class="variant-item">
+                    <h4 class="variant-name">Beras Kencur</h4>
+                    <p class="variant-benefit">menyembuhkan sariawan, menambah nafsu makan, mencegah stress, menyehatkan kulit, dll</p>
+                </div>
+                
+                <div class="variant-item">
+                    <h4 class="variant-name">Temulawak</h4>
+                    <p class="variant-benefit">meningkatkan fungsi pencernaan, pengeluaran toksin/antikanker, membantu mengatasi mual, dll.</p>
+                </div>
+                
+                <div class="variant-item">
+                    <h4 class="variant-name">Varian Ultimate</h4>
+                    <p class="variant-benefit">Mengatasi Problem pencernaan, Reproduksi (kista, Miom, Promil, Haid yang bermasalah dll)</p>
+                </div>
+                
+                <div class="variant-item">
+                    <h4 class="variant-name">Sirih</h4>
+                    <p class="variant-benefit">mengatasi keputihan, meredakan sakit gigi, mengobati luka, sebagai antiseptik alami, dll</p>
+                </div>
+                
+                <div class="variant-item">
+                    <h4 class="variant-name">Kunir & Madu</h4>
+                    <p class="variant-benefit">mengatasi asam lambung, menjaga daya ingat, menurunkan kolesterol, meredakan peradangan, meredakan batuk. dll</p>
+                </div>
+
+                <div class="variant-item">
+                    <h4 class="variant-name">Rempah Baacak</h4>
+                    <p class="variant-benefit">mengatasi virus/gegal-segal, keccapean dan badan meriang</p>
+                </div>
+
+                <div class="variant-item">
+                    <h4 class="variant-name">Kunir Kurma</h4>
+                    <p class="variant-benefit">memperbaiki sistem pencernaan, promil, dll.</p>
+                </div>
+            </div>
+            
+            <p class="note">NB : Varian bisa bertambah sesuai dengan yang di keluhkan.</p>
+        </section>
+        
+        <hr>
+
+        <section class="order-form-section">
+            <h3 class="section-title">Formulir Pemesanan ✨</h3>
+            <form id="orderForm">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="alamat">Alamat (beserta Nama Kost/Patokan):</label>
+                    <textarea id="alamat" name="alamat" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="sharelock" name="kirim_sharelock" value="Ya">
+                    <label for="sharelock">Bersedia Kirim Sharelock Alamat</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="no_wa">Nomor WhatsApp (Aktif):</label>
+                    <input type="tel" id="no_wa" name="no_wa" pattern="[0-9]{8,15}" required>
+                    <small>Contoh: 081234567890</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="varian">Pilih Varian (Sebutkan jumlah/berat jika perlu):</label>
+                    <textarea id="varian" name="varian" rows="4" required></textarea>
+                    <small>Contoh: Kunir Asem (2 botol), Beras Kencur (1/2 kg)</small>
+                </div>
+
+                <button type="submit" class="submit-button">Pesan Sekarang via WA</button>
+                <p class="form-note">*Formulir akan membuka aplikasi WhatsApp untuk mengirimkan detail pesanan Anda.</p>
+            </form>
+        </section>
+        <hr>
+        
+        <section class="footer-cta">
+            <div class="cta-box reseller-box">
+                <p>Open Reseller</p>
+                <a href="https://www.instagram.com/rempah.elfood" target="_blank" class="social-handle">
+                    <span>📸</span> @rempah.elfood
+                </a>
+            </div>
+
+            <div class="cta-box contact-box">
+                <p>Hubungi Kami</p>
+                <a 
+                    href="https://wa.me/6285777206416?text=Halo%20Elfood,%20saya%20tertarik%20dengan%20produk%20rempah%20alami%20Anda." 
+                    class="phone-number" 
+                    target="_blank"
+                >
+                    085777206416
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="w.js"></script> 
+</body>
+</html>
